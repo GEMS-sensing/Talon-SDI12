@@ -108,15 +108,40 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="mbFinish" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="mtGlue" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="mbGlue" color="7" fill="1" visible="no" active="no"/>
+<layer number="137" name="mtTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="mHoles" color="7" fill="1" visible="no" active="no"/>
+<layer number="146" name="mMilling" color="7" fill="1" visible="no" active="no"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
@@ -180,7 +205,7 @@
 <wire x1="-1" y1="16.5" x2="1" y2="16.5" width="0" layer="20"/>
 <wire x1="1" y1="16.5" x2="3.5" y2="19" width="0" layer="20"/>
 <text x="28.956" y="4.064" size="1.778" layer="51" font="vector" ratio="15" align="center-left">Talon - SDI-12
-v0.0
+v0.1
 Bobby Schulz</text>
 <text x="-67.31" y="7.62" size="1.778" layer="51" font="vector" ratio="15" align="center-left">Port1</text>
 <text x="-29.21" y="1.27" size="1.778" layer="51" font="vector" ratio="15" align="center-left">Port2</text>
@@ -1827,6 +1852,15 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="MPN" value="D5V0L1B2LP4-7B" x="61.468" y="12.446" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="60.198" y="13.208" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 </element>
+<element name="U24" library="bschulz" package="SOT23-5" value="24AA02SOT23" x="-13.589" y="17.018" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="24AA025E64T-I/OTCT-ND" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="DISP" value="24AA025E64" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="Microchip" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MOUSER" value="24AA025E64T-I/OTCT-ND" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="24AA025E64T-I/OT" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="NAME" x="-11.938" y="17.018" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="-13.462" y="14.732" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="3V3">
@@ -1920,8 +1954,6 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-31.62705" y1="11.303" x2="-30.55495" y2="11.303" width="0.254" layer="1"/>
 <wire x1="-30.55495" y1="11.303" x2="-30.096" y2="11.76195" width="0.254" layer="1"/>
 <wire x1="-12.0906" y1="14.3254" x2="-12.827" y2="14.3254" width="0.254" layer="1"/>
-<wire x1="-12.827" y1="14.3254" x2="-14.4524" y2="14.3254" width="0.254" layer="1"/>
-<wire x1="-16.5602" y1="16.4332" x2="-14.4524" y2="14.3254" width="0.254" layer="1"/>
 <wire x1="-7.112" y1="14.112" x2="-9.144" y2="14.112" width="0.254" layer="1"/>
 <wire x1="-7.112" y1="14.112" x2="-7.112" y2="14.3277875" width="0.254" layer="1"/>
 <wire x1="-30.096" y1="11.76195" x2="-30.096" y2="12.443" width="0.254" layer="1"/>
@@ -2030,7 +2062,6 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-18.1391125" y1="16.486" x2="-18.0863125" y2="16.4332" width="0.254" layer="16"/>
 <wire x1="-18.1391125" y1="16.486" x2="-24.5335" y2="16.486" width="0.254" layer="16"/>
 <wire x1="-24.638" y1="16.3815" x2="-24.5335" y2="16.486" width="0.254" layer="16"/>
-<wire x1="-18.0863125" y1="16.4332" x2="-16.5602" y2="16.4332" width="0.254" layer="1"/>
 <wire x1="-24.904" y1="15.285" x2="-24.904" y2="16.3695" width="0.2" layer="1"/>
 <wire x1="-24.904" y1="16.3695" x2="-24.892" y2="16.3815" width="0.2" layer="1"/>
 <wire x1="-29.5817875" y1="18.407" x2="-29.337" y2="18.1622125" width="0.254" layer="1"/>
@@ -2082,6 +2113,20 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="45.724" y1="12.173" x2="45.339" y2="12.558" width="0.254" layer="1"/>
 <wire x1="45.339" y1="13.193" x2="45.339" y2="12.558" width="0.254" layer="1"/>
 <wire x1="45.724" y1="12.173" x2="45.724" y2="11.176" width="0.254" layer="1"/>
+<contactref element="U24" pad="4"/>
+<wire x1="-18.0863125" y1="16.4332" x2="-16.645421875" y2="16.4332" width="0.254" layer="1"/>
+<wire x1="-16.645421875" y1="16.4332" x2="-14.537621875" y2="14.3254" width="0.254" layer="1"/>
+<wire x1="-14.537621875" y1="14.3254" x2="-13.589" y2="14.3254" width="0.254" layer="1"/>
+<wire x1="-13.589" y1="14.3254" x2="-12.827" y2="14.3254" width="0.254" layer="1"/>
+<wire x1="-12.239" y1="16.068" x2="-13.142" y2="16.068" width="0.254" layer="1"/>
+<wire x1="-13.589" y1="15.621" x2="-13.589" y2="14.3254" width="0.254" layer="1"/>
+<wire x1="-13.142" y1="16.068" x2="-13.589" y2="15.621" width="0.254" layer="1"/>
+<wire x1="30.988" y1="17.079" x2="33.105" y2="16.637" width="0" layer="19" extent="1-1"/>
+<wire x1="33.233" y1="12.898" x2="33.105" y2="16.637" width="0" layer="19" extent="1-1"/>
+<wire x1="37.633" y1="12.898" x2="33.233" y2="12.898" width="0" layer="19" extent="1-1"/>
+<wire x1="37.633" y1="12.248" x2="37.633" y2="12.898" width="0" layer="19" extent="1-1"/>
+<wire x1="37.084" y1="8.748" x2="37.633" y2="12.248" width="0" layer="19" extent="1-1"/>
+<wire x1="35.052" y1="8.548" x2="37.084" y2="8.748" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q1" pad="3"/>
@@ -2537,6 +2582,13 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-23.38" y1="8.667" x2="-23.0554375" y2="8.9915625" width="0.254" layer="1"/>
 <wire x1="-57.754" y1="12.065" x2="-57.819" y2="12" width="0.2" layer="1"/>
 <wire x1="-57.819" y1="12" x2="-59.2" y2="12" width="0.2" layer="1"/>
+<contactref element="U24" pad="2"/>
+<contactref element="U24" pad="5"/>
+<wire x1="-12.239" y1="17.968" x2="-13.02" y2="17.968" width="0.254" layer="1"/>
+<wire x1="-13.97" y1="17.018" x2="-14.939" y2="17.018" width="0.254" layer="1"/>
+<wire x1="-13.02" y1="17.968" x2="-13.97" y2="17.018" width="0.254" layer="1"/>
+<wire x1="-12.239" y1="17.968" x2="-10.7406" y2="17.968" width="0.254" layer="1"/>
+<wire x1="-10.7406" y1="17.968" x2="-10.496" y2="18.2126" width="0.254" layer="1"/>
 <wire x1="31.877" y1="14.097" x2="33.233" y2="13.548" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="12.573" x2="13.081" y2="12.573" width="0" layer="19" extent="1-1"/>
 <wire x1="12.573" y1="13.559" x2="13.081" y2="12.573" width="0" layer="19" extent="1-1"/>
@@ -2599,9 +2651,9 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <via x="-50.419" y="16.129" extent="1-16" drill="0.254"/>
 <wire x1="-50.419" y1="16.129" x2="-53.633" y2="16.129" width="0.254" layer="1"/>
 <wire x1="-53.633" y1="16.129" x2="-53.721" y2="16.017" width="0.254" layer="1"/>
-<via x="-12.827" y="14.859" extent="1-16" drill="0.254"/>
-<wire x1="-12.827" y1="14.859" x2="-12.79058125" y2="14.82258125" width="0.254" layer="16"/>
-<wire x1="-12.79058125" y1="14.82258125" x2="-12.79058125" y2="12.7364625" width="0.254" layer="16"/>
+<via x="-12.319" y="14.859" extent="1-16" drill="0.254"/>
+<wire x1="-12.319" y1="14.859" x2="-12.79058125" y2="14.38741875" width="0.254" layer="16"/>
+<wire x1="-12.79058125" y1="14.38741875" x2="-12.79058125" y2="12.7364625" width="0.254" layer="16"/>
 <wire x1="-12.79058125" y1="12.7364625" x2="-15.3856375" y2="10.14140625" width="0.254" layer="16"/>
 <via x="-31.753" y="15.24" extent="1-16" drill="0.254"/>
 <wire x1="-31.14" y1="14.627" x2="-21.86943125" y2="14.627" width="0.254" layer="16"/>
@@ -2611,8 +2663,9 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-21.019075" y1="13.77664375" x2="-21.86943125" y2="14.627" width="0.254" layer="16"/>
 <wire x1="-21.019075" y1="13.01195" x2="-21.019075" y2="13.77664375" width="0.254" layer="16"/>
 <wire x1="-18.14853125" y1="10.14140625" x2="-21.019075" y2="13.01195" width="0.254" layer="16"/>
-<wire x1="-12.827" y1="14.859" x2="-11.699" y2="15.987" width="0.254" layer="1"/>
-<wire x1="-11.699" y1="15.987" x2="-9.525" y2="15.987" width="0.254" layer="1"/>
+<wire x1="-10.048" y1="15.987" x2="-11.176" y2="14.859" width="0.254" layer="1"/>
+<wire x1="-12.319" y1="14.859" x2="-11.176" y2="14.859" width="0.254" layer="1"/>
+<wire x1="-10.048" y1="15.987" x2="-9.525" y2="15.987" width="0.254" layer="1"/>
 <wire x1="-9.525" y1="15.987" x2="-8.397" y2="15.987" width="0.254" layer="1"/>
 <wire x1="-8.397" y1="15.987" x2="-8.255" y2="16.129" width="0.254" layer="1"/>
 <wire x1="-8.255" y1="16.129" x2="-7.714" y2="16.129" width="0.254" layer="1"/>
@@ -3454,17 +3507,14 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <contactref element="U3" pad="4"/>
 <contactref element="R9" pad="2"/>
 <contactref element="U14" pad="5"/>
-<via x="-13.564259375" y="14.883740625" extent="1-16" drill="0.2"/>
-<wire x1="-13.564259375" y1="14.883740625" x2="-13.579584375" y2="14.883740625" width="0.2" layer="16"/>
-<wire x1="-13.579584375" y1="14.883740625" x2="-13.579584375" y2="12.493646875" width="0.2" layer="16"/>
+<via x="-13.056259375" y="14.883740625" extent="1-16" drill="0.2"/>
 <wire x1="-18.001940625" y1="10.541" x2="-20.626440625" y2="13.1655" width="0.2" layer="16"/>
 <wire x1="-20.626440625" y1="13.1655" x2="-20.626440625" y2="14.171559375" width="0.2" layer="16"/>
-<wire x1="-13.579584375" y1="12.493646875" x2="-15.53223125" y2="10.541" width="0.2" layer="16"/>
+<wire x1="-15.53223125" y1="10.541" x2="-13.198584375" y2="12.874646875" width="0.2" layer="16"/>
 <wire x1="-15.53223125" y1="10.541" x2="-18.001940625" y2="10.541" width="0.2" layer="16"/>
 <wire x1="-23.126" y1="14.085" x2="-23.704" y2="14.085" width="0.2" layer="1"/>
 <wire x1="-7.26755625" y1="16.637" x2="-6.97075625" y2="16.9338" width="0.2" layer="1"/>
-<wire x1="-7.26755625" y1="16.637" x2="-11.811" y2="16.637" width="0.2" layer="1"/>
-<wire x1="-11.811" y1="16.637" x2="-13.564259375" y2="14.883740625" width="0.2" layer="1"/>
+<wire x1="-10.033" y1="16.637" x2="-7.26755625" y2="16.637" width="0.2" layer="1"/>
 <wire x1="-20.626440625" y1="14.171559375" x2="-20.99988125" y2="14.545" width="0.2" layer="16"/>
 <wire x1="-20.99988125" y1="14.545" x2="-21.10295" y2="14.545" width="0.2" layer="16"/>
 <via x="-21.10295" y="14.545" extent="1-16" drill="0.2"/>
@@ -3481,6 +3531,11 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-6.97075625" y1="16.9338" x2="-6.477" y2="16.9338" width="0.2" layer="1"/>
 <wire x1="-6.477" y1="16.9338" x2="-6.335" y2="17.0758" width="0.2" layer="1"/>
 <wire x1="-6.335" y1="17.0758" x2="-6.335" y2="17.653" width="0.2" layer="1"/>
+<wire x1="-13.198584375" y1="12.874646875" x2="-13.198584375" y2="14.741415625" width="0.2" layer="16"/>
+<wire x1="-13.198584375" y1="14.741415625" x2="-13.056259375" y2="14.883740625" width="0.2" layer="16"/>
+<wire x1="-13.056259375" y1="14.883740625" x2="-12.597" y2="15.343" width="0.2" layer="1"/>
+<wire x1="-12.597" y1="15.343" x2="-11.327" y2="15.343" width="0.2" layer="1"/>
+<wire x1="-11.327" y1="15.343" x2="-10.033" y2="16.637" width="0.2" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="J2" pad="4"/>
@@ -3518,13 +3573,10 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-19.28308125" y1="14.3921875" x2="-19.28308125" y2="12.40355" width="0.127" layer="16"/>
 <wire x1="-25.5522" y1="15.6575" x2="-20.54839375" y2="15.6575" width="0.127" layer="16"/>
 <wire x1="-20.54839375" y1="15.6575" x2="-19.28308125" y2="14.3921875" width="0.127" layer="16"/>
-<wire x1="-14.37808125" y1="14.68441875" x2="-13.716" y2="15.3465" width="0.127" layer="16"/>
 <wire x1="-19.28308125" y1="12.40355" x2="-17.84644375" y2="10.9669125" width="0.127" layer="16"/>
 <wire x1="-17.84644375" y1="10.9669125" x2="-15.814725" y2="10.9669125" width="0.127" layer="16"/>
 <wire x1="-15.814725" y1="10.9669125" x2="-14.37808125" y2="12.40355625" width="0.127" layer="16"/>
-<wire x1="-14.37808125" y1="12.40355625" x2="-14.37808125" y2="14.68441875" width="0.127" layer="16"/>
 <wire x1="-9.144" y1="14.605" x2="-9.144" y2="12.093775" width="0.127" layer="16"/>
-<wire x1="-13.716" y1="15.3465" x2="-9.8855" y2="15.3465" width="0.127" layer="16"/>
 <wire x1="-9.8855" y1="15.3465" x2="-9.144" y2="14.605" width="0.127" layer="16"/>
 <contactref element="U10" pad="2"/>
 <wire x1="-0.784" y1="13.484" x2="0.127" y2="12.573" width="0.2" layer="1"/>
@@ -3548,6 +3600,15 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="0.127" y1="12.573" x2="0.127" y2="13.589" width="0.1524" layer="16"/>
 <wire x1="0.508" y1="13.97" x2="1.27" y2="13.97" width="0.1524" layer="16"/>
 <wire x1="0.127" y1="13.589" x2="0.508" y2="13.97" width="0.1524" layer="16"/>
+<contactref element="U24" pad="3"/>
+<via x="-14.097" y="14.859" extent="1-16" drill="0.2"/>
+<wire x1="-14.37808125" y1="14.57791875" x2="-14.097" y2="14.859" width="0.127" layer="16"/>
+<wire x1="-14.37808125" y1="12.40355625" x2="-14.37808125" y2="14.57791875" width="0.127" layer="16"/>
+<wire x1="-14.097" y1="14.859" x2="-13.6095" y2="15.3465" width="0.127" layer="16"/>
+<wire x1="-13.6095" y1="15.3465" x2="-9.8855" y2="15.3465" width="0.127" layer="16"/>
+<wire x1="-14.097" y1="14.859" x2="-14.6222" y2="14.859" width="0.127" layer="1"/>
+<wire x1="-14.939" y1="15.1758" x2="-14.939" y2="16.068" width="0.127" layer="1"/>
+<wire x1="-14.6222" y1="14.859" x2="-14.939" y2="15.1758" width="0.127" layer="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="J2" pad="3"/>
@@ -3580,12 +3641,9 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-20.49268125" y1="15.961" x2="-19.029084375" y2="14.497403125" width="0.127" layer="16"/>
 <wire x1="-19.029084375" y1="14.497403125" x2="-19.029084375" y2="12.5087625" width="0.127" layer="16"/>
 <wire x1="-15.9199375" y1="11.220909375" x2="-14.632084375" y2="12.5087625" width="0.127" layer="16"/>
-<wire x1="-14.632084375" y1="14.811415625" x2="-13.843" y2="15.6005" width="0.127" layer="16"/>
 <wire x1="-7.112" y1="13.843" x2="-7.112" y2="11.557" width="0.127" layer="16"/>
-<wire x1="-7.112" y1="13.843" x2="-8.8695" y2="15.6005" width="0.127" layer="16"/>
+<wire x1="-8.8695" y1="15.6005" x2="-7.112" y2="13.843" width="0.127" layer="16"/>
 <wire x1="-17.74123125" y1="11.220909375" x2="-15.9199375" y2="11.220909375" width="0.127" layer="16"/>
-<wire x1="-14.632084375" y1="12.5087625" x2="-14.632084375" y2="14.811415625" width="0.127" layer="16"/>
-<wire x1="-13.843" y1="15.6005" x2="-8.8695" y2="15.6005" width="0.127" layer="16"/>
 <contactref element="U10" pad="3"/>
 <wire x1="-0.625" y1="9.56" x2="-0.625" y2="12.055" width="0.2" layer="1"/>
 <wire x1="-0.625" y1="12.055" x2="-1.143" y2="12.573" width="0.2" layer="1"/>
@@ -3612,6 +3670,20 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-1.143" y1="12.573" x2="-1.905" y2="12.573" width="0.1524" layer="16"/>
 <wire x1="-1.905" y1="12.573" x2="-2.286" y2="12.954" width="0.1524" layer="16"/>
 <wire x1="-2.286" y1="12.954" x2="-2.286" y2="13.97" width="0.1524" layer="16"/>
+<contactref element="U24" pad="1"/>
+<via x="-14.478" y="15.367" extent="1-16" drill="0.2"/>
+<wire x1="-14.632084375" y1="15.212915625" x2="-14.478" y2="15.367" width="0.127" layer="16"/>
+<wire x1="-14.632084375" y1="12.5087625" x2="-14.632084375" y2="15.212915625" width="0.127" layer="16"/>
+<wire x1="-14.478" y1="15.367" x2="-14.2445" y2="15.6005" width="0.127" layer="16"/>
+<wire x1="-14.2445" y1="15.6005" x2="-8.8695" y2="15.6005" width="0.127" layer="16"/>
+<wire x1="-14.2485" y1="16.42190625" x2="-14.36009375" y2="16.5335" width="0.127" layer="1"/>
+<wire x1="-14.478" y1="15.367" x2="-14.2485" y2="15.5965" width="0.127" layer="1"/>
+<wire x1="-14.2485" y1="15.5965" x2="-14.2485" y2="16.42190625" width="0.127" layer="1"/>
+<wire x1="-15.49890625" y1="16.5335" x2="-15.6295" y2="16.66409375" width="0.127" layer="1"/>
+<wire x1="-15.56" y1="17.968" x2="-14.939" y2="17.968" width="0.127" layer="1"/>
+<wire x1="-14.36009375" y1="16.5335" x2="-15.49890625" y2="16.5335" width="0.127" layer="1"/>
+<wire x1="-15.6295" y1="16.66409375" x2="-15.6295" y2="17.8985" width="0.127" layer="1"/>
+<wire x1="-15.6295" y1="17.8985" x2="-15.56" y2="17.968" width="0.127" layer="1"/>
 </signal>
 <signal name="DATA_OUT1">
 <contactref element="J3" pad="4"/>
@@ -3909,7 +3981,7 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <via x="-19.431" y="15.621" extent="1-16" drill="0.2"/>
 <wire x1="-23.388" y1="14.585" x2="-23.704" y2="14.585" width="0.2" layer="1"/>
 <wire x1="-7.71745" y1="15.891" x2="-0.53125" y2="8.7048" width="0.2" layer="16"/>
-<wire x1="-14.081" y1="15.891" x2="-7.71745" y2="15.891" width="0.2" layer="16"/>
+<wire x1="-17.5197625" y1="15.891" x2="-7.71745" y2="15.891" width="0.2" layer="16"/>
 <wire x1="-19.431" y1="15.545" x2="-19.431" y2="15.621" width="0.2" layer="1"/>
 <wire x1="-22.044" y1="15.929" x2="-20.5123" y2="15.929" width="0.2" layer="1"/>
 <wire x1="-22.044" y1="15.929" x2="-23.388" y2="14.585" width="0.2" layer="1"/>
@@ -3917,9 +3989,7 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-20.5123" y1="15.929" x2="-20.1283" y2="15.545" width="0.2" layer="1"/>
 <wire x1="-19.431" y1="15.621" x2="-19.05488125" y2="15.24488125" width="0.2" layer="16"/>
 <wire x1="-19.05488125" y1="15.24488125" x2="-18.16588125" y2="15.24488125" width="0.2" layer="16"/>
-<wire x1="-18.16588125" y1="15.24488125" x2="-17.75635" y2="15.6544125" width="0.2" layer="16"/>
-<wire x1="-17.75635" y1="15.6544125" x2="-14.3175875" y2="15.6544125" width="0.2" layer="16"/>
-<wire x1="-14.3175875" y1="15.6544125" x2="-14.081" y2="15.891" width="0.2" layer="16"/>
+<wire x1="-18.16588125" y1="15.24488125" x2="-17.5197625" y2="15.891" width="0.2" layer="16"/>
 </signal>
 <signal name="DIR">
 <contactref element="U14" pad="7"/>
@@ -3942,17 +4012,15 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <wire x1="-20.193" y1="16.256" x2="-22.671" y2="16.256" width="0.2" layer="1"/>
 <wire x1="-24.404" y1="15.285" x2="-23.642" y2="15.285" width="0.2" layer="1"/>
 <wire x1="-22.671" y1="16.256" x2="-23.642" y2="15.285" width="0.2" layer="1"/>
-<wire x1="-7.582" y1="16.218" x2="-14.262" y2="16.218" width="0.2" layer="16"/>
+<wire x1="-7.582" y1="16.218" x2="-17.6552125" y2="16.218" width="0.2" layer="16"/>
 <wire x1="7.239" y1="7.8888" x2="6.096" y2="9.0318" width="0.2" layer="16"/>
 <wire x1="6.096" y1="9.0318" x2="-0.3958" y2="9.0318" width="0.2" layer="16"/>
-<wire x1="-17.8918" y1="15.9814125" x2="-18.27010625" y2="15.60310625" width="0.2" layer="16"/>
 <wire x1="-19.2417" y1="16.078" x2="-19.6203" y2="16.078" width="0.2" layer="16"/>
 <wire x1="-19.6203" y1="16.078" x2="-19.6963" y2="16.002" width="0.2" layer="16"/>
 <wire x1="-19.6963" y1="16.002" x2="-19.939" y2="16.002" width="0.2" layer="16"/>
 <wire x1="-18.27010625" y1="15.60310625" x2="-18.76680625" y2="15.60310625" width="0.2" layer="16"/>
 <wire x1="-18.76680625" y1="15.60310625" x2="-19.2417" y2="16.078" width="0.2" layer="16"/>
-<wire x1="-14.262" y1="16.218" x2="-14.4985875" y2="15.9814125" width="0.2" layer="16"/>
-<wire x1="-14.4985875" y1="15.9814125" x2="-17.8918" y2="15.9814125" width="0.2" layer="16"/>
+<wire x1="-17.6552125" y1="16.218" x2="-18.27010625" y2="15.60310625" width="0.2" layer="16"/>
 <contactref element="TP5" pad="1"/>
 <wire x1="7.239" y1="7.8888" x2="11.1908" y2="7.8888" width="0.1524" layer="16"/>
 <wire x1="11.1908" y1="7.8888" x2="11.43" y2="8.128" width="0.1524" layer="16"/>
