@@ -1,7 +1,4 @@
 #include <Wire.h>
- // #include "Adafruit_MCP23008.h"
-// #include <Adafruit_MCP23X17.h>
-// #include <MCP2301x.h>
 #include <Arduino.h>
 #include <MCP23018.h>
 
@@ -18,20 +15,22 @@ const uint8_t Dir = 0;
 const uint8_t POS_DETECT = 12;
 const uint8_t SENSE_EN = 13;
 
+const uint8_t DATA_EN1 = 4;
+const uint8_t EN1 = 0;
+const uint8_t FAULT1 = 8;
+
 //Configured for pins on the Particle Boron
 //const uint8_t EXT_EN = 8;
 //const uint8_t SDA_CTRL = 2;
 
- const uint8_t EXT_EN = 13;
- const uint8_t SDA_CTRL = 5;
+const uint8_t EXT_EN = 13;
+const uint8_t SDA_CTRL = 5;
 
 #define MARKING_PERIOD 9 //>8.33ms for standard marking period
 const unsigned long TimeoutStandard = 380; //Standard timeout period for most commands is 380ms 
 
 char ReadArray[25] = {0};
 
- // Adafruit_MCP23008 io;
-// Adafruit_MCP23X17 io;
 MCP23018 io(0x20);
 // MCP2301x io;
 
@@ -68,14 +67,19 @@ const uint8_t MUX_SEL2 = 2;
 const float VoltageDiv = 3; //Program voltage divider
 const float CurrentDiv = 0.243902439; //82mOhm, 50V/V Amp
 
+///////////// AUX VOLTAGE SENSE /////////////
+#include <MCP3221.h>
+
+MCP3221 adcAux(0x4D); //Instantiate MCP3221 with A5 address 
+
 void setup() {
 
-	pinMode(EXT_EN, OUTPUT); 
-	digitalWrite(EXT_EN, HIGH);
+	// pinMode(EXT_EN, OUTPUT); 
+	// digitalWrite(EXT_EN, HIGH);
 	Serial.begin(115200);
 	// delay(5000);
-	pinMode(SDA_CTRL, OUTPUT);
-	digitalWrite(SDA_CTRL, LOW);
+	// pinMode(SDA_CTRL, OUTPUT);
+	// digitalWrite(SDA_CTRL, LOW);
 	delay(5000);
 
 	Wire.begin();
@@ -202,7 +206,7 @@ void loop() {
 			Result = io.digitalWrite(Pin, State);
 		}
 
-		if(!Operation.equals("S")) { //If any function but voltage sense called, report normally
+		if(!Operation.equals("S") && !Operation.equals("s")) { //If any function but voltage sense called, report normally
 			Serial.print(">");
 			Serial.println(ReadString); //Echo back to serial monitor
 			Serial.print(">");
@@ -211,6 +215,10 @@ void loop() {
 
 		if(Operation.equals("S")) { //Run voltage sense program
 			VoltageSense();
+		}
+
+		if(Operation.equals("s")) { //Run Apogee port voltage sense program
+			AuxVoltageSense();
 		}
 		
 	}
@@ -403,4 +411,14 @@ void VoltageSense() //Voltage sense (AKA Sensor0)
 	}
 	else Serial.print("\tFAIL!\n");
 	// digitalWrite(I2C_EN, HIGH); //Turn on external I2C
+}
+
+void AuxVoltageSense()
+{
+	io.digitalWrite(DATA_EN1 + 3, LOW); //Set MUX to analog output
+	Serial.print(">Aux Voltage Sense:\n");
+	adcAux.begin(); //Initalize the MCP3221
+	Serial.print("\t");
+	Serial.print(adcAux.getVoltage(3.3)*1000.0); //Print voltage in mV, calculate for 5V supply 
+	Serial.print(" mV\n"); 
 }
