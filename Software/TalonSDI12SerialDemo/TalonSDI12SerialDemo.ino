@@ -9,8 +9,8 @@ const uint8_t TX = 1;
 const uint8_t RX = 0;
 
 //IO Expander Pins
-const uint8_t FOut = 1;
-const uint8_t Dir = 0;
+const uint8_t FOut = 14;
+const uint8_t Dir = 15;
 
 const uint8_t POS_DETECT = 12;
 const uint8_t SENSE_EN = 13;
@@ -31,7 +31,7 @@ const unsigned long TimeoutStandard = 380; //Standard timeout period for most co
 
 char ReadArray[25] = {0};
 
-MCP23018 io(0x20);
+MCP23018 io(0x26); //FIX??
 // MCP2301x io;
 
 // #define IOEXP_MODE  (IOCON_INTCC | IOCON_INTPOL | IOCON_ODR | IOCON_MIRROR)
@@ -64,7 +64,7 @@ const uint8_t MUX_SEL0 = 0;
 const uint8_t MUX_SEL1 = 1;
 const uint8_t MUX_SEL2 = 2;
 
-const float VoltageDiv = 3; //Program voltage divider
+const float VoltageDiv = 6; //Program voltage divider
 const float CurrentDiv = 0.243902439; //82mOhm, 50V/V Amp
 
 ///////////// AUX VOLTAGE SENSE /////////////
@@ -128,7 +128,8 @@ void setup() {
 	// io.pinPullup(0, Dir, true);
 	// io.pinMode(0, FOut, OUTPUT);
 	// io.pinMode(0, Dir, OUTPUT);
-
+	io.pinMode( Dir, OUTPUT); //Set to output 
+	io.pinMode( FOut, OUTPUT); //Set to output 
 	io.digitalWrite( Dir, HIGH); //Set to transmit 
 //  io.digitalWrite( FOut, LOW); //DEBUG!
 	Serial1.begin(1200, SERIAL_7E1);
@@ -358,9 +359,12 @@ String SendCommand(String Command)
 
 void SetDefaultPins()
 {
+	Serial.println(io.begin()); //DEBUG!
+	io.pinMode(SENSE_EN, OUTPUT); //Set sense control as output
+	io.digitalWrite(SENSE_EN, HIGH); //Default sense to on - NOTE: For proper sequencing, this must be done BEFORE each enable line is driven high
 	for(int i = 0; i < 8; i++) { //Enable all power, then all data
-		io.pinMode(i, OUTPUT);
-		io.digitalWrite(i, HIGH);
+		io.pinMode(i, OUTPUT); 
+		io.digitalWrite(i, HIGH); 
 	} 
 
 	for(int i = 8; i < 12; i++) { //Set FAULT lines as input pullups
@@ -368,8 +372,8 @@ void SetDefaultPins()
 	}
 
 	io.pinMode(POS_DETECT, INPUT); //Set position detect as normal pullup (has external pullup)
-	io.pinMode(SENSE_EN, OUTPUT); //Set sense control as output
-	io.digitalWrite(SENSE_EN, HIGH); //Default sense to on 
+	// io.pinMode(SENSE_EN, OUTPUT); //Set sense control as output
+	// io.digitalWrite(SENSE_EN, HIGH); //Default sense to on 
 }
 
 void VoltageSense() //Voltage sense (AKA Sensor0)
@@ -381,12 +385,12 @@ void VoltageSense() //Voltage sense (AKA Sensor0)
 	for(int i = 0; i < 4; i++) { //Set all pins to output
 		ioSense.pinMode(i, OUTPUT); 
 	}
-	ioSense.digitalWrite(MUX_EN, HIGH); //Turn MUX on 
+	ioSense.digitalWrite(MUX_EN, LOW); //Turn MUX on 
 	int SenseError = adc.Begin(); //Initialize ADC 
 	if(SenseError == 0) { //Only proceed if ADC connects correctly
 		adc.SetResolution(18); //Set to max resolution (we paid for it right?) 
 
-		ioSense.digitalWrite(MUX_SEL2, LOW); //Read voltages
+		ioSense.digitalWrite(MUX_SEL2, HIGH); //Read voltages
 		for(int i = 0; i < 4; i++){ //Increment through 4 voltages
 			ioSense.digitalWrite(MUX_SEL0, i & 0b01); //Set with lower bit
 			ioSense.digitalWrite(MUX_SEL1, (i & 0b10) >> 1); //Set with high bit
@@ -397,7 +401,7 @@ void VoltageSense() //Voltage sense (AKA Sensor0)
 	  		Serial.print(adc.GetVoltage(true)*VoltageDiv, 6); //Print high resolution voltage
 	  		Serial.print(" V\n");  
 		}
-		ioSense.digitalWrite(MUX_SEL2, HIGH); //Read currents
+		ioSense.digitalWrite(MUX_SEL2, LOW); //Read currents
 		for(int i = 0; i < 4; i++){ //Increment through 4 voltages
 			ioSense.digitalWrite(MUX_SEL0, i & 0b01); //Set with lower bit
 			ioSense.digitalWrite(MUX_SEL1, (i & 0b10) >> 1); //Set with high bit
@@ -410,6 +414,7 @@ void VoltageSense() //Voltage sense (AKA Sensor0)
 		}
 	}
 	else Serial.print("\tFAIL!\n");
+	ioSense.digitalWrite(MUX_EN, HIGH); //Turn MUX off
 	// digitalWrite(I2C_EN, HIGH); //Turn on external I2C
 }
 
