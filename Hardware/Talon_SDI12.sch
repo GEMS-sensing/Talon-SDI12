@@ -7183,6 +7183,12 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value="RC0402FR-07120KL" constant="no"/>
 <attribute name="VALUE_PART" value="120k" constant="no"/>
 </technology>
+<technology name="13.3K">
+<attribute name="DIGIKEY" value="YAG2974CT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0402FR-0713K3L" constant="no"/>
+<attribute name="VALUE_PART" value="13.3k" constant="no"/>
+</technology>
 <technology name="130K">
 <attribute name="DIGIKEY" value="YAG2969CT-ND" constant="no"/>
 <attribute name="MF" value="Yageo" constant="no"/>
@@ -9951,13 +9957,13 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="bschulz" deviceset="FRAME_A_L" device=""/>
 <part name="R14" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="499K" value="499k"/>
-<part name="R18" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="100K" value="100k"/>
+<part name="R18" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100K" value="100k"/>
 <part name="R15" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="499K" value="499k"/>
-<part name="R19" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="100K" value="100k"/>
+<part name="R19" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100K" value="100k"/>
 <part name="R16" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="499K" value="499k"/>
-<part name="R20" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="100K" value="100k"/>
+<part name="R20" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100K" value="100k"/>
 <part name="R17" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="499K" value="499k"/>
-<part name="R21" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="100K" value="100k"/>
+<part name="R21" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100K" value="100k"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11115,17 +11121,17 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="109.22" y1="172.72" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
 <label x="106.68" y="172.72" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="EN"/>
+<wire x1="215.9" y1="66.04" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
+<label x="210.82" y="66.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="!DATA_EN4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="Y5"/>
 <wire x1="129.54" y1="172.72" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
 <label x="132.08" y="172.72" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="EN"/>
-<wire x1="215.9" y1="66.04" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
-<label x="210.82" y="66.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
