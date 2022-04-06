@@ -1855,12 +1855,11 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="MPN" value="D12V0L1B2LP-7B" x="61.087" y="8.255" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="60.833" y="8.255" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="U24" library="bschulz" package="SOT23-5" value="24AA02SOT23" x="-13.589" y="17.018" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="24AA025E64T-I/OTCT-ND" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="DISP" value="24AA025E64" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="U24" library="bschulz" package="SOT23-5" value="AT24MAC602SOT23" x="-13.589" y="17.018" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="AT24MAC602-STUM-TCT-ND" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="DISP" value="AT24MAC602" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="MF" value="Microchip" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MOUSER" value="24AA025E64T-I/OTCT-ND" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="24AA025E64T-I/OT" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="AT24MAC602-STUM-T" x="-12.319" y="17.018" size="1.27" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="-11.938" y="17.018" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="-13.462" y="14.732" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
@@ -2002,7 +2001,7 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="10.16" y="6.223" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE_PART" value="510" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D8" library="bschulz" package="SOD323-R" value="5.1V" x="-59.309" y="12.319" smashed="yes">
+<element name="D8" library="bschulz" package="SOD323-R" value="" x="-59.309" y="12.319" smashed="yes">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="-59.309" y="12.319" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Vishay" x="-59.309" y="12.319" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08" x="-59.309" y="12.319" size="1.778" layer="27" display="off"/>
@@ -2017,7 +2016,7 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="-26.543" y="11.43" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE_PART" value="510" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D9" library="bschulz" package="SOD323-R" value="5.1V" x="-24.892" y="8.255" smashed="yes" rot="R270">
+<element name="D9" library="bschulz" package="SOD323-R" value="" x="-24.892" y="8.255" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="-24.892" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Vishay" x="-24.892" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08" x="-24.892" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2032,7 +2031,7 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="19.431" y="10.922" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE_PART" value="510" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D10" library="bschulz" package="SOD323-R" value="5.1V" x="20.955" y="12.065" smashed="yes">
+<element name="D10" library="bschulz" package="SOD323-R" value="" x="20.955" y="12.065" smashed="yes">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="20.955" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Vishay" x="20.955" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08" x="20.955" y="12.065" size="1.778" layer="27" display="off"/>
@@ -2047,7 +2046,7 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="61.722" y="12.827" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE_PART" value="510" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D11" library="bschulz" package="SOD323-R" value="5.1V" x="62.865" y="13.462" smashed="yes">
+<element name="D11" library="bschulz" package="SOD323-R" value="" x="62.865" y="13.462" smashed="yes">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="62.865" y="13.462" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Vishay" x="62.865" y="13.462" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08" x="62.865" y="13.462" size="1.778" layer="27" display="off"/>

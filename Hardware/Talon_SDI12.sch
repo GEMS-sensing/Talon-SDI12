@@ -1617,10 +1617,10 @@ Switches electronic signals</description>
 </symbol>
 <symbol name="LOAD_SWITCH_BASIC">
 <description>&lt;b&gt;Generic Load Switch Symbol&lt;/b&gt;</description>
-<pin name="VIN" x="-12.7" y="2.54" visible="pin" length="middle" direction="pwr"/>
+<pin name="VIN" x="-12.7" y="2.54" length="middle" direction="pwr"/>
 <pin name="EN" x="-12.7" y="-2.54" length="middle" direction="in"/>
-<pin name="VOUT" x="12.7" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND" x="12.7" y="-2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VOUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
@@ -3814,8 +3814,8 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/en/products/detail/onse
 </device>
 </devices>
 </deviceset>
-<deviceset name="24AA02" prefix="U">
-<description>&lt;b&gt;24AA02&lt;/b&gt; - 2k I&lt;sup&gt;2&lt;/sup&gt;C Serial EEPROM
+<deviceset name="AT24MAC*02" prefix="U">
+<description>&lt;b&gt;AT24MACx02&lt;/b&gt; - 2kb  I&lt;sup&gt;2&lt;/sup&gt;C Serial EEPROM with EUI serial number
 
 &lt;p&gt;&lt;b&gt;Characteristics:&lt;/b&gt;
 &lt;ul&gt;
@@ -3829,7 +3829,7 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/en/products/detail/onse
 
 &lt;p&gt;
 &lt;b&gt;Digikey:&lt;/b&gt;
-&lt;br&gt;&lt;a href = "https://www.digikey.com/en/products/detail/microchip-technology/24AA025E64T-I-OT/3908633"&gt; 24AA025E64T-I/OTCT-ND (SOT-23)&lt;/a&gt;</description>
+&lt;br&gt;&lt;a href = "https://www.digikey.com/en/products/detail/microchip-technology/AT24MAC602-STUM-T/3973073?s=N4IgTCBcDaIIIBUwBYCycDCA2ADGAtAMoICqq%2BCIAugL5A"&gt; AT24MAC602-STUM-T (SOT-23, EUI-64)&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="EEPROM_WP" x="0" y="0"/>
 </gates>
@@ -3844,11 +3844,22 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/en/products/detail/onse
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="24AA025E64T-I/OTCT-ND" constant="no"/>
-<attribute name="DISP" value="24AA025E64" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DISP" value="AT24MAC*02" constant="no"/>
 <attribute name="MF" value="Microchip" constant="no"/>
-<attribute name="MOUSER" value="24AA025E64T-I/OTCT-ND" constant="no"/>
-<attribute name="MPN" value="24AA025E64T-I/OT" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="4">
+<attribute name="DIGIKEY" value="AT24MAC402-STUM-TCT-ND" constant="no"/>
+<attribute name="DISP" value="AT24MAC402" constant="no"/>
+<attribute name="MF" value="Microchip" constant="no"/>
+<attribute name="MPN" value="AT24MAC402-STUM-T" constant="no"/>
+</technology>
+<technology name="6">
+<attribute name="DIGIKEY" value="AT24MAC602-STUM-TCT-ND" constant="no"/>
+<attribute name="DISP" value="AT24MAC602" constant="no"/>
+<attribute name="MF" value="Microchip" constant="no"/>
+<attribute name="MPN" value="AT24MAC602-STUM-T" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10117,7 +10128,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value="D12V0L1B2LP-7B"/>
 </part>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U24" library="bschulz" deviceset="24AA02" device="SOT23"/>
+<part name="U24" library="bschulz" deviceset="AT24MAC*02" device="SOT23" technology="6" value="AT24MAC602SOT23"/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R31" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="1K" value="1k"/>
 <part name="R32" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="1K" value="1k"/>
@@ -10158,28 +10169,28 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R40" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="510" value="510R"/>
 <part name="R41" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="510" value="510R"/>
 <part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D8" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323" value="5.1V">
+<part name="D8" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND"/>
 <attribute name="MF" value="Vishay"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08"/>
 </part>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R42" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="510" value="510R"/>
-<part name="D9" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323" value="5.1V">
+<part name="D9" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND"/>
 <attribute name="MF" value="Vishay"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08"/>
 </part>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R43" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="510" value="510R"/>
-<part name="D10" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323" value="5.1V">
+<part name="D10" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND"/>
 <attribute name="MF" value="Vishay"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08"/>
 </part>
 <part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R44" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="510" value="510R"/>
-<part name="D11" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323" value="5.1V">
+<part name="D11" library="bschulz" deviceset="DIODE_ZENER" device="SOD-323">
 <attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND"/>
 <attribute name="MF" value="Vishay"/>
 <attribute name="MPN" value="BZX384B5V1-HE3-08"/>
