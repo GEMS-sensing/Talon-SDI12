@@ -1174,9 +1174,9 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="-12.192" y="10.033" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
 <element name="C1" library="bschulz_passives" package="C0603" value="1uF" x="-4.2555" y="17.145" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="587-1251-1-ND" x="42.7345" y="76.835" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="587-2984-1-ND" x="42.7345" y="76.835" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yaiyo Yuden" x="42.7345" y="76.835" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="EMK107BJ105KA-T" x="42.7345" y="76.835" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TMK107B7105KA-T" x="42.7345" y="76.835" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-4.191" y="15.3025" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="-2.8585" y="17.145" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
@@ -1587,18 +1587,18 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="NAME" x="-5.588" y="16.764" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="U23" library="bschulz" package="DCK_R-PDSO-G5" value="SN74LVC1G17DCK" x="6.096" y="2.032" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="296-11934-1-ND" x="45.466" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISP" value="SN74LVC1G17" x="45.466" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="296-11608-1-ND" x="45.466" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISP" value="SN74LVC1G14" x="45.466" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TI" x="45.466" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SN74LVC1G17DCKR" x="45.466" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SN74LVC1G14DCKR" x="45.466" y="40.132" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.096" y="0.508" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="6.096" y="3.556" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="U8" library="bschulz" package="DGK_S-PDSO-G8" value="LM2621" x="35.433" y="12.573" smashed="yes">
-<attribute name="DIGIKEY" value="LM2621MMX/NOPBCT-ND" x="35.433" y="12.573" size="1.778" layer="27" display="off"/>
-<attribute name="DISP" value="LM2621" x="35.433" y="12.573" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="LM2623AMM/NOPBCT-ND" x="35.433" y="12.573" size="1.778" layer="27" display="off"/>
+<attribute name="DISP" value="LM2623" x="35.433" y="12.573" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="TI" x="35.433" y="12.573" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="LM2621MMX/NOPB" x="35.433" y="12.573" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LM2623AMM/NOPB" x="35.433" y="12.573" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.465" y="14.351" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="L1" library="bschulz" package="WE-MAIA(4.1X4.1)" value="6.8uH" x="34.29" y="16.637" smashed="yes">
@@ -1615,18 +1615,18 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="NAME" x="30.988" y="18.288" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="29.591" y="16.129" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R13" library="bschulz_passives" package="R0603" value="470k" x="35.052" y="9.398" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="311-470KGRCT-ND" x="35.052" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R13" library="bschulz_passives" package="R0603" value="390k" x="35.052" y="9.398" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="311-390KHRCT-ND" x="35.052" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="35.052" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603JR-07470KL" x="35.052" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07390KL" x="35.052" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.052" y="7.493" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="33.655" y="9.398" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE_PART" value="470k" x="35.052" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE_PART" value="390k" x="35.052" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C4" library="bschulz_passives" package="C0402" value="0.1uF" x="37.084" y="9.398" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="490-4759-1-ND" x="37.084" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Murata" x="37.084" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GCM155R71C104KA55D" x="37.084" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C4" library="bschulz_passives" package="C0402" value="DNP" x="37.084" y="9.398" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="DNP" x="37.084" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="N/A" x="37.084" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="DNP" x="37.084" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="37.973" y="9.398" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="38.481" y="9.398" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
@@ -1660,10 +1660,10 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="NAME" x="28.448" y="9.398" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="30.861" y="9.398" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C9" library="bschulz_passives" package="C2917" value="68uF" x="41.021" y="12.065" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="399-3803-1-ND" x="41.021" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Kemet" x="41.021" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="T491D686K020AT" x="41.021" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C9" library="bschulz_passives" package="C2917" value="100uF" x="41.021" y="12.065" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="718-293D107X0016D2TE3CT-ND" x="41.021" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Vishay" x="41.021" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="293D107X0016D2TE3" x="41.021" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="43.688" y="12.065" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="U9" library="bschulz" package="DBV0005A" value="LMR62014SOT23" x="12.573" y="14.859" smashed="yes" rot="R90">
@@ -1831,28 +1831,28 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="MPN" value="RCU-0C" x="-2.286" y="13.97" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
 <attribute name="VALUE" x="-1.00771875" y="14.0413" size="0.6096" layer="28" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="D4" library="bschulz" package="D0402" value="6V" x="-57.45" y="10.668" smashed="yes">
-<attribute name="DIGIKEY" value="D5V0L1B2LP4-7BDICT-ND" x="-57.45" y="10.668" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
+<element name="D4" library="bschulz" package="D0402" value="12V" x="-57.45" y="10.668" smashed="yes">
+<attribute name="DIGIKEY" value="D12V0L1B2LP-7BDICT-ND" x="-57.45" y="10.668" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="Diodes Inc" x="-57.45" y="10.668" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="D5V0L1B2LP4-7B" x="-57.45" y="10.668" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="D12V0L1B2LP-7B" x="-57.45" y="10.668" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="-57.45" y="11.43" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="D5" library="bschulz" package="D0402" value="6V" x="-21.844" y="11.811" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="D5V0L1B2LP4-7BDICT-ND" x="-23.114" y="11.811" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="D5" library="bschulz" package="D0402" value="12V" x="-21.844" y="11.811" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="D12V0L1B2LP-7BDICT-ND" x="-23.114" y="11.811" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MF" value="Diodes Inc" x="-23.114" y="11.811" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="MPN" value="D5V0L1B2LP4-7B" x="-23.114" y="11.811" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="D12V0L1B2LP-7B" x="-23.114" y="11.811" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="-21.844" y="12.573" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="D6" library="bschulz" package="D0402" value="6V" x="21.25" y="9" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="D5V0L1B2LP4-7BDICT-ND" x="19.98" y="9" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="D6" library="bschulz" package="D0402" value="12V" x="21.25" y="9" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="D12V0L1B2LP-7BDICT-ND" x="19.98" y="9" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MF" value="Diodes Inc" x="19.98" y="9" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="MPN" value="D5V0L1B2LP4-7B" x="19.98" y="9" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="D12V0L1B2LP-7B" x="19.98" y="9" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="21.631" y="8.238" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="D7" library="bschulz" package="D0402" value="6V" x="59.817" y="8.255" smashed="yes">
-<attribute name="DIGIKEY" value="D5V0L1B2LP4-7BDICT-ND" x="61.087" y="8.255" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
+<element name="D7" library="bschulz" package="D0402" value="12V" x="59.817" y="8.255" smashed="yes">
+<attribute name="DIGIKEY" value="D12V0L1B2LP-7BDICT-ND" x="61.087" y="8.255" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="Diodes Inc" x="61.087" y="8.255" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="D5V0L1B2LP4-7B" x="61.087" y="8.255" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="D12V0L1B2LP-7B" x="61.087" y="8.255" size="0.6096" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="60.833" y="8.255" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="U24" library="bschulz" package="SOT23-5" value="24AA02SOT23" x="-13.589" y="17.018" smashed="yes" rot="R270">
@@ -1912,10 +1912,10 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="-44.196" y="18.415" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE_PART" value="1k" x="-44.196" y="9.779" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C17" library="bschulz_passives" package="C0402" value="0.1uF" x="-47.244" y="17.399" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="490-4759-1-ND" x="-47.244" y="21.209" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-47.244" y="21.209" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GCM155R71C104KA55D" x="-47.244" y="21.209" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C17" library="bschulz_passives" package="C0402" value="DNP" x="-47.244" y="17.399" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="DNP" x="-47.244" y="21.209" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="N/A" x="-47.244" y="21.209" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="DNP" x="-47.244" y="21.209" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-47.244" y="18.288" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="-47.244" y="18.415" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
@@ -1927,10 +1927,10 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="-44.069" y="12.319" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE_PART" value="1k" x="-40.259" y="11.303" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C18" library="bschulz_passives" package="C0402" value="0.1uF" x="-47.117" y="11.303" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="490-4759-1-ND" x="-43.307" y="22.733" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="-43.307" y="22.733" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GCM155R71C104KA55D" x="-43.307" y="22.733" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C18" library="bschulz_passives" package="C0402" value="DNP" x="-47.117" y="11.303" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="DNP" x="-43.307" y="22.733" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="N/A" x="-43.307" y="22.733" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="DNP" x="-43.307" y="22.733" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-48.641" y="11.176" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="-47.117" y="12.319" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
@@ -1942,10 +1942,10 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="-40.513" y="14.097" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE_PART" value="1k" x="-40.513" y="16.891" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C19" library="bschulz_passives" package="C0402" value="0.1uF" x="-40.513" y="14.224" smashed="yes">
-<attribute name="DIGIKEY" value="490-4759-1-ND" x="-40.513" y="-1.016" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Murata" x="-40.513" y="-1.016" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GCM155R71C104KA55D" x="-40.513" y="-1.016" size="1.778" layer="27" display="off"/>
+<element name="C19" library="bschulz_passives" package="C0402" value="DNP" x="-40.513" y="14.224" smashed="yes">
+<attribute name="DIGIKEY" value="DNP" x="-40.513" y="-1.016" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="N/A" x="-40.513" y="-1.016" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DNP" x="-40.513" y="-1.016" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-39.116" y="14.224" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="-40.513" y="13.208" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
@@ -1957,24 +1957,24 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE" x="-40.513" y="18.161" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE_PART" value="1k" x="-36.703" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C20" library="bschulz_passives" package="C0402" value="0.1uF" x="-40.513" y="16.002" smashed="yes">
-<attribute name="DIGIKEY" value="490-4759-1-ND" x="-44.323" y="-6.858" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Murata" x="-44.323" y="-6.858" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GCM155R71C104KA55D" x="-44.323" y="-6.858" size="1.778" layer="27" display="off"/>
+<element name="C20" library="bschulz_passives" package="C0402" value="DNP" x="-40.513" y="16.002" smashed="yes">
+<attribute name="DIGIKEY" value="DNP" x="-44.323" y="-6.858" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="N/A" x="-44.323" y="-6.858" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DNP" x="-44.323" y="-6.858" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-39.116" y="16.002" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="-40.513" y="14.986" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C21" library="bschulz_passives" package="C0402" value="" x="32.512" y="9.398" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="" x="32.512" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="32.512" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="32.512" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C21" library="bschulz_passives" package="C0402" value="1pF" x="32.512" y="9.398" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="490-6073-1-ND" x="32.512" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata" x="32.512" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GJM1555C1H1R0BB01D" x="32.512" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="32.512" y="10.795" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="33.528" y="9.398" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="C22" library="bschulz_passives" package="C0402" value="3.3nF" x="10.16" y="6.35" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="" x="10.16" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="10.16" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="311-1034-1-ND" x="10.16" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Yageo" x="10.16" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0402KRX7R9BB332" x="10.16" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.065" y="6.35" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="10.16" y="7.366" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
@@ -1987,58 +1987,70 @@ Ref &lt;a href = http://www.ti.com/lit/ds/symlink/lp3988-q1.pdf&gt;datasheet&lt;
 <attribute name="VALUE_PART" value="200k" x="10.16" y="7.493" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R40" library="bschulz_passives" package="R0402" value="510R" x="-60.071" y="8.636" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="" x="-60.071" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="311-510LRCT-ND" x="-60.071" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="-60.071" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="-60.071" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-07510RL" x="-60.071" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-60.706" y="9.525" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="-60.071" y="9.652" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE_PART" value="" x="-60.071" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE_PART" value="510" x="-60.071" y="8.636" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R41" library="bschulz_passives" package="R0402" value="510R" x="10.16" y="5.207" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="311-510LRCT-ND" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-07510RL" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.065" y="5.207" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="10.16" y="6.223" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE_PART" value="" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE_PART" value="510" x="10.16" y="5.207" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D8" library="bschulz" package="SOD323-R" value="" x="-59.309" y="12.319" smashed="yes">
+<element name="D8" library="bschulz" package="SOD323-R" value="5.1V" x="-59.309" y="12.319" smashed="yes">
+<attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="-59.309" y="12.319" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Vishay" x="-59.309" y="12.319" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="BZX384B5V1-HE3-08" x="-59.309" y="12.319" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-59.309" y="13.573" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="-59.309" y="11.035" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
 <element name="R42" library="bschulz_passives" package="R0402" value="510R" x="-26.543" y="10.414" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="311-510LRCT-ND" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-07510RL" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-28.067" y="10.541" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="-26.543" y="11.43" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE_PART" value="" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE_PART" value="510" x="-26.543" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D9" library="bschulz" package="SOD323-R" value="" x="-24.892" y="8.255" smashed="yes" rot="R270">
+<element name="D9" library="bschulz" package="SOD323-R" value="5.1V" x="-24.892" y="8.255" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="-24.892" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Vishay" x="-24.892" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BZX384B5V1-HE3-08" x="-24.892" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-23.638" y="9.017" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="-26.176" y="8.255" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="R43" library="bschulz_passives" package="R0402" value="510R" x="18.415" y="10.922" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="311-510LRCT-ND" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0402FR-07510RL" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="18.161" y="9.398" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="19.431" y="10.922" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE_PART" value="" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE_PART" value="510" x="18.415" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D10" library="bschulz" package="SOD323-R" value="" x="20.955" y="12.065" smashed="yes">
+<element name="D10" library="bschulz" package="SOD323-R" value="5.1V" x="20.955" y="12.065" smashed="yes">
+<attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="20.955" y="12.065" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Vishay" x="20.955" y="12.065" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="BZX384B5V1-HE3-08" x="20.955" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.876" y="12.065" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="20.955" y="10.781" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
 <element name="R44" library="bschulz_passives" package="R0402" value="510R" x="60.706" y="12.827" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="311-510LRCT-ND" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0402FR-07510RL" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="60.833" y="11.43" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="61.722" y="12.827" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE_PART" value="" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE_PART" value="510" x="60.706" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D11" library="bschulz" package="SOD323-R" value="" x="62.865" y="13.462" smashed="yes">
+<element name="D11" library="bschulz" package="SOD323-R" value="5.1V" x="62.865" y="13.462" smashed="yes">
+<attribute name="DIGIKEY" value="BZX384B5V1-HE3-08GICT-ND" x="62.865" y="13.462" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Vishay" x="62.865" y="13.462" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="BZX384B5V1-HE3-08" x="62.865" y="13.462" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="62.865" y="14.621" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="62.865" y="12.178" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
